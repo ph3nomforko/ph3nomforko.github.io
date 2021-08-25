@@ -1,8 +1,8 @@
 # Website details
-name: Name
-description: Description
-email: email@site.com
-author: author
+name: CK Coding Odyssey
+description: Going from Lawyer to Programmer
+email: codi.kraus@gmail.com
+author: Codi Kraus
 lang: en
 locale: en_US
 
@@ -11,11 +11,12 @@ paginate: 10
 highlighter: rouge
 markdown: kramdown
 plugins: [jekyll-paginate]
-timezone: America/New_York
+timezone: America/Chicago
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
-baseurl: https://ozgrozer.github.io/dasper
+baseurl: https://ph3nomforko.github.io
+github_username: ph3nomforko
 
 # Includes
 addthisId: ""
@@ -36,3 +37,5 @@ sitemap:
     - "/index.html"
   change_frequency_name: "daily"
   priority_name: "1.00"
+
+gems: [jekyll-paginate, jekyll-feed]
